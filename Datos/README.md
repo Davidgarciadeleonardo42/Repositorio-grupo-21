@@ -10,6 +10,8 @@ Estos datos son comunes sirviendo como base para análisis (comparación de las 
 
 ## Fuente de las secuencias
 - Proteína Spike: UniProt (P0DTC2 · SPIKE_SARS2).
-- Proteína Spike Variante 1: UniProt (P59594 · SPIKE_SARS).
-- Proteína Spike Variante 2: UniProt (Q0Q475 · SPIKE_BC279).
-- Proteína Spike Variante 3: UniProt (Q3I5J5 · SPIKE_BCRP3).
+- Proteína Spike Variante Alpha: GenBank (BFP61150.1· BFP61150).
+- Proteína Spike Variante Beta: GenBank (XNC78828.1 · XNC78828).
+- Proteína Spike Variante Gamma: GenBank (YBL65226.1 · YBL65226).
+- Proteína Spike Variante Delta: GenBank (YCR25796.1 · YCR25796).
+- Proteína Spike Variante Omicron: GenBank (YGA56012.1 · YGA56012).
