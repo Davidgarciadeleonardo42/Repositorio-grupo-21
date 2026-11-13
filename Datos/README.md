@@ -8,11 +8,11 @@ Estos datos son comunes y sirven como base para análisis (comparación de las v
 |---|---|---|
 | **spike_gen_S_NC_045512.fasta** | Secuencia de nucleótidos del gen S (3822 nt) | FASTA |
 | **proteina_Spike_P0DTC2.fasta** | Secuencia de aminoácidos de la proteína Spike de referencia (1273 aa) | FASTA |
-| **NOMBRE_ALPHA.fasta** | Secuencia de aminoácidos de la proteína Spike, variante Alpha | FASTA |
-| **NOMBRE_BETA.fasta** | Secuencia de aminoácidos de la proteína Spike, variante Beta | FASTA |
-| **NOMBRE_GAMMA.fasta** | Secuencia de aminoácidos de la proteína Spike, variante Gamma | FASTA |
-| **NOMBRE_DELTA.fasta** | Secuencia de aminoácidos de la proteína Spike, variante Delta | FASTA |
-| **NOMBRE_OMICRON.fasta** | Secuencia de aminoácidos de la proteína Spike, variante Omicron | FASTA |
+| **proteina_Spike_variante_alpha_ BFP61150.1.fasta** | Secuencia de aminoácidos de la proteína Spike, variante Alpha | FASTA |
+| **proteina_Spike_variante_beta_XNC78828.1.fasta** | Secuencia de aminoácidos de la proteína Spike, variante Beta | FASTA |
+| **proteina_Spike_variante_gamma_YBL65226.1.fasta** | Secuencia de aminoácidos de la proteína Spike, variante Gamma | FASTA |
+| **proteina_Spike_variante_delta_YCR25796.1.fasta** | Secuencia de aminoácidos de la proteína Spike, variante Delta | FASTA |
+| **proteina_Spike_variante_omicron_YGA56012.1.fasta** | Secuencia de aminoácidos de la proteína Spike, variante Omicron | FASTA |
 | **data_report.jsonl** | Metadatos del gen S (identificadores, posición, descripción) | JSON Lines |
 | **product_report.jsonl** | Informe de la proteína codificada (YP_009724390.1) | JSON Lines |
 
