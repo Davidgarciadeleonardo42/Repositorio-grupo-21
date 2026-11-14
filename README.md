@@ -5,4 +5,4 @@ Este repositorio contiene análisis de muestras de la proteína Spike del Sars-C
 | **Carpeta Datos** | Información recogida de bases de datos para este proyecto |
 | **Carpeta Scripts** | Referencia de código utilizado para los distintos análisis a lo largo del proyecto |
 
-| **Carpetas Muestra** | Distintas secuencias de las muestras empleadas en los experimentos y los distintos análisis realizados sobre las mismas |
+| **Carpetas Muestra** | Muestras empleadas en los experimentos y análisis realizados sobre las mismas |
