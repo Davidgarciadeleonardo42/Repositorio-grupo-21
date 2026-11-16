@@ -1,5 +1,6 @@
 import argparse
 import sys
+from utils_bio import leer_secuencia_fasta
 
 # Diccionario codones
 CODON_TABLE = {
@@ -20,31 +21,21 @@ CODON_TABLE = {
     'TAC':'Y', 'TAT':'Y', 'TAA':'_', 'TAG':'_', 'TGA':'_'
 }
 
-def leer_secuencia(ruta_archivo):
-    """Lee el archivo txt y limpia la secuencia."""
-    try:
-        with open(ruta_archivo, 'r') as file:
-            secuencia = file.read().replace('\n', '').replace(' ', '').upper()
-            return secuencia
-    except FileNotFoundError:
-        print(f"Error: No se encontró el archivo {ruta_archivo}")
-        sys.exit(1)
-
 def traducir_a_proteina(secuencia_adn):
-    """Traduce la secuencia de ADN a proteína asumiendo el marco de lectura +1."""
     proteina = ""
     for i in range(0, len(secuencia_adn) - (len(secuencia_adn) % 3), 3):
         codon = secuencia_adn[i:i+3]
-        proteina += CODON_TABLE.get(codon, '?') # '?' si hay nucleótidos ambiguos (N)
+        proteina += CODON_TABLE.get(codon, '?') 
     return proteina
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Traduce una secuencia de ADN a Proteína.")
-    parser.add_argument("archivo", help="Ruta al archivo TXT con la secuencia de ADN")
+    parser.add_argument("archivo", help="Ruta al archivo FASTA/TXT")
     args = parser.parse_args()
 
-    adn = leer_secuencia(args.archivo)
+    # Llamas a la función importada
+    adn = leer_secuencia_fasta(args.archivo)
     proteina = traducir_a_proteina(adn)
     
-    print(f"Longitud ADN: {len(adn)} pb")
+    print(f"Longitud ADN analizado: {len(adn)} pb")
     print(f"Secuencia Proteica Resultante:\n{proteina}")
