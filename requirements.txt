@@ -1,0 +1,8 @@
+# Dependencias para el análisis bioinformático - Proteína Spike
+
+# Para el alineamiento global de secuencias (alinear_secuencias.py)
+biopython==1.83
+
+# Para la generación y exportación de gráficos (generar_graficos.py)
+matplotlib
+seaborn
