@@ -1,5 +1,10 @@
 # Repositorio de la proteína Spike del Sars-Cov-2
 Este repositorio contiene análisis de muestras de la proteína Spike del Sars-Cov-2 y variantes. 
+
+## Índice y esctructura
+
+Haz clic en el nombre de cada carpeta para acceder a su documentación detallada:
+
 | **Carpeta** | **Contenido** |
 |---|---|
 | [**Datos**](Datos/README.md) | Información recogida de bases de datos para este proyecto (Secuencias FASTA de referencia y metadatos). |
